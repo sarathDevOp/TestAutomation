@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
 public class loginsteps {
-    WebDriver driver;
+        WebDriver driver;
     @Given("The user able to Lauch the DemoCart Application")
     public void lauchURL() {
         driver = new ChromeDriver();
